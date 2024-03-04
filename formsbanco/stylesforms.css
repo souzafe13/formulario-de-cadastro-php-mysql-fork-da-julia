@@ -61,13 +61,23 @@ fieldset {
     width: 100%;
     border: none;
     padding: 15px;
-    color: black;
+    color: rgb(56, 1, 63);
     font-size: 15px;
     border-radius: 10px;
     cursor: pointer;
+    
 }
 
 #submit:hover {
     background-color: rgb(56, 1, 63);
-    color: white;
+    color: yellow;
+}
+
+fieldset:hover{
+    border: solid rgb(56, 1, 63);
+    
+}
+#data_nascimento:hover{
+    background-color: rgb(56,1,63);
+    color:rgb(245, 245, 16);
 }

@@ -38,6 +38,8 @@ else
             <a href="sair.php" class="btn btn-danger me-5">Sair</a>
         </div>
     </nav>
-        <h1>Acessou o Sistema</h1>
+<?php
+echo "<h1> Boas vindas <u> $logado </u></h1>";
+?>
 </body>
 </html>
